@@ -21,7 +21,6 @@ public class ApiConfig
 	@Bean
 	public ObjectWriter objectWritter (ObjectMapper objectMapper)
 	{		
-		
 		return objectMapper.writerWithDefaultPrettyPrinter();
 	}
 	
